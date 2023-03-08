@@ -1,0 +1,36 @@
+.footerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background: #0f172a;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 30px 0;
+}
+
+.icon {
+  transition-duration: 300ms;
+  cursor: pointer;
+  padding: 4px 6px;
+}
+.icon:hover {
+  background-color: #fff;
+  color: #0f172a;
+  transform: scale(1.1);
+}
+
+.anchor {
+  text-decoration: none;
+  outline: none;
+  color: unset;
+}
+
+@media (min-width: 900px) {
+  .footerWrapper {
+    gap: 70px;
+    font-size: 3.5rem;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+}

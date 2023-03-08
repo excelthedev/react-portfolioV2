@@ -1,0 +1,45 @@
+.headerText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 40px 20px;
+}
+
+.wrapper {
+  width: 900px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line {
+  height: 2px;
+  background: #0f172a;
+  flex: 1;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 2.5rem;
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: transparent;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 0 20px;
+  font-weight: 300;
+}
+
+@media (min-width: 900px) {
+  .sectionContent {
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+}

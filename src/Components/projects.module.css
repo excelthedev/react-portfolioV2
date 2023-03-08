@@ -1,0 +1,81 @@
+.wrapper {
+  width: 900px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionContent {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0.1fr));
+  gap: 15px;
+  padding: 3px 0;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.imgDisplay {
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition-duration: 300ms;
+  background: #0f172a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+
+  /* padding: 10px 20px; */
+}
+
+.touchText {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.imgDisplay:hover .overlay {
+  opacity: 0.8;
+}
+
+.button {
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+  transition-duration: 300ms;
+  padding: 4px 8px;
+  border-radius: 2rem;
+}
+
+.button:hover {
+  color: #0f172a;
+  background: #fff;
+}
+.links {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icons {
+  font-size: 2rem;
+}
+
+@media (min-width: 900px) {
+  .sectionContent {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 90px;
+  }
+}

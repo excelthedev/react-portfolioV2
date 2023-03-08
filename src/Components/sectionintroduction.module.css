@@ -1,0 +1,59 @@
+.headerText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 40px 20px;
+}
+
+.line,
+.lineDark {
+  height: 2px;
+
+  flex: 1;
+}
+
+.line {
+  background: #0f172a;
+}
+
+.lineDark {
+  background: #fff;
+}
+
+.text,
+.textDark {
+  font-weight: 700;
+  font-size: 2.5rem;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  -webkit-text-stroke: 2px black;
+}
+
+.textDark {
+  -webkit-text-stroke: 2px #fff;
+}
+
+@media (min-width: 900px) {
+  .text {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #0f172a;
+    -webkit-text-stroke: unset;
+    -webkit-text-fill-color: unset;
+  }
+
+  .textDark {
+    color: #fff;
+    -webkit-text-fill-color: unset;
+  }
+
+  .paragraph {
+    border: unset;
+    font-size: 1.5rem;
+    font-weight: 450;
+    line-height: 2.5rem;
+  }
+}
