@@ -4,7 +4,7 @@ import styles from "./header.module.css";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <h1 className={styles.headerText}>THE EXCEL (Software Dev.)</h1>
+      <h1 className={styles.headerText}>Oluwatobiloba Excel (Software Dev.)</h1>
       <div className={styles.navItems}>
         <a href="#about-me" className={styles.anchor}>
           <i className={`fa-solid fa-user ${styles.icons}`}></i>
@@ -16,7 +16,7 @@ export default function Header() {
           <i className={`fa-solid fa-trophy ${styles.icons}`}></i>
         </a>
         <a
-          href={"https://github.com/theseventhgod?tab=repositories"}
+          href={"https://github.com/excelthedev?tab=repositories"}
           target="_blank"
           rel="noreferrer"
           className={styles.anchor}
