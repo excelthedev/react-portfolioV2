@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className={styles.footerWrapper}>
       <a
-        href={"https://github.com/theseventhgod?tab=repositories"}
+        href={"https://github.com/excelthedev?tab=repositories"}
         target="_blank"
         rel="noreferrer"
         className={styles.anchor}
