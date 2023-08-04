@@ -22,7 +22,7 @@ export default function Projects() {
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://github.com/theseventhgod?tab=repositories"}
+                  href={"https://github.com/excelthedev?tab=repositories"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -30,7 +30,7 @@ export default function Projects() {
                   <i className={`fa-brands fa-github ${styles.icons}`}></i>
                 </a>
                 <a
-                  href={"https://github.com/theseventhgod?tab=repositories"}
+                  href={"https://github.com/excelthedev?tab=repositories"}
                   rel="noreferrer"
                   className={styles.button}
                 >
@@ -49,7 +49,7 @@ export default function Projects() {
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://github.com/theseventhgod?tab=repositories"}
+                  href={"https://github.com/excelthedev?tab=repositories"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -57,7 +57,7 @@ export default function Projects() {
                   <i className={`fa-brands fa-github ${styles.icons}`}></i>
                 </a>
                 <a
-                  href={"https://github.com/theseventhgod?tab=repositories"}
+                  href={"https://github.com/excelthedev?tab=repositories"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -77,7 +77,7 @@ export default function Projects() {
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://github.com/theseventhgod?tab=repositories"}
+                  href={"https://github.com/excelthedev?tab=repositories"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -85,7 +85,7 @@ export default function Projects() {
                   <i className={`fa-brands fa-github ${styles.icons}`}></i>
                 </a>
                 <a
-                  href={"https://github.com/theseventhgod?tab=repositories"}
+                  href={"https://github.com/excelthedev?tab=repositories"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -105,7 +105,7 @@ export default function Projects() {
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://github.com/theseventhgod?tab=repositories"}
+                  href={"https://github.com/excelthedev?tab=repositories"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -113,7 +113,7 @@ export default function Projects() {
                   <i className={`fa-brands fa-github ${styles.icons}`}></i>
                 </a>
                 <a
-                  href={"https://github.com/theseventhgod?tab=repositories"}
+                  href={"https://github.com/excelthedev?tab=repositories"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
